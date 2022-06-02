@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varelawght@300;400;700&display=swap');
+
+body {
+  background-color: rgb(46, 132, 193,.1);
+  color: rgba(0,0,0,.8);
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 2em;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  /* align-items: center; */
+}
+h1 {
+  color: rgba(0,0,0,1);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+h2 {
+  color: rgba(50,50,50,.8);
+  font-family: 'Varela', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 2.5;
+}
+a {
+  text-decoration: none;
+  color: #FF5396;
+  font-weight: bold;
+}
+a:hover {
+  color: #171514;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.card-white {
+  background: white;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(100,100,0,.3);
+  /* width: 100%; */
+  margin: 32 auto;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.shadowed {
+  box-shadow: 5 5px 3px black;
+}
+.text-center {
+  text-align: center;
+}
+.card-white h1 {
+  font-weight: bolder;
+}
+.card-white h2 {
+  color: green;
+}
+.btn-purple {
+  color: white;
+  padding: 32px, 48px;
+}
+.btn-purple:hover {
+background-color: white;
+color: #60173F;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li{
+  display: inline-block;
+  padding: 0px 16px;
+}
+.bigger-btn {
+  background-color: #60173F;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  width: 30%;
+  margin: 10px auto;
+}
+.bigger-btn:hover {
+  border: 1px solid #60173F;
+  background-color: white;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
